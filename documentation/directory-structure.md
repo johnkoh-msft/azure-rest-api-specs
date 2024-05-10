@@ -36,11 +36,11 @@ You may be also interested in following:
 
 ## Key concepts
 
-The directory structure is a reflection of few key concepts.
+The directory structure is a reflection of a few key concepts.
 
 A `service` is a set of operation endpoints (typically HTTP REST API endpoints) that **version uniformly**.
 
-A `service group` is a set of services that share common (ARM) **Resource Provider (RP) Namespace**, `RPNS`.
+A `service group` is a set of services that share a common (ARM) **Resource Provider (RP) Namespace**, `RPNS`.
 
 In case of ARM, a `service` consists of multiple `resource types`.
 A `resource type` can be derived from the URL of HTTP API operations that pertain to it.
